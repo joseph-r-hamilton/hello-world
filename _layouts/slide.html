@@ -62,11 +62,11 @@
         controls: true,
         progress: true,
         history: true,
-        {%if page.center %}
-        center: {{ page.center }},
-        {% else %}
+        {%unless page.center == false %}
         center: true,
-        {% endif %}
+        {% else %}
+        center: false,
+        {% endunless %}
         {%if page.transition %}
           transition: '{{page.transition}}',
         {% else %}
