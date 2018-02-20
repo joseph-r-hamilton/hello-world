@@ -1,13 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-/**
- * Default theme for reveal.js.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
- */
+
 @font-face {
   font-family: 'League Gothic';
-  src: url("../font/league_gothic-webfont.eot");
-  src: url("../font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/league_gothic-webfont.woff") format("woff"), url("../font/league_gothic-webfont.ttf") format("truetype");
+  src: url("../../lib/font/league-gothic/league-gothic.eot");
+  src: url("../../lib/font/league-gothic/league-gothic.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league-gothic/league-gothic.woff") format("woff"), url("../../lib/font/league-gothic/league-gothic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
