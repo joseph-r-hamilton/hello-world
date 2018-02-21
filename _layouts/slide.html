@@ -78,6 +78,12 @@
           parallaxBackgroundHorizontal: '{{page.parallaxBackground.horizontal}}',
           parallaxBackgroundVertical: '{{page.parallaxBackground.vertical}}',
         {% endif %}
+        {%if page.width %}
+          width: '{{page.width}}',
+        {% endif %}
+        {%if page.height %}
+          height: '{{page.height}}',
+        {% endif %}
 
         // Optional reveal.js plugins
         dependencies: [
